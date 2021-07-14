@@ -1,7 +1,86 @@
-/* body{
-    color: aqua;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.hello {
-    color: blue;
-} */
+::-webkit-scrollbar {
+    display: none;
+  }
+  .example::-webkit-scrollbar {
+    display: none;
+  }
+  .example {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+.container{
+    margin: 0px 100px;
+    padding: 80px 40px;
+    height: auto;
+    width: 1500px;
+    background: rgba(148, 148, 148, 0.7);
+    border-radius: 10px;
+    box-shadow: 0.5px 0.5px 3px #000000;
+    position: relative;
+    top: 400px;
+    z-index: 1;
+  }
+
+.country{
+    font-size: 25px;
+}
+
+.flags{
+    border-radius: 5px;
+}
+
+.tableHeadings{
+    font-family: Staatliches;
+    font-size: 35px;
+    font-weight: 700px;
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke-width: 0.05px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+
+.country{
+    font-family: Staatliches;
+    font-size:30px;
+    color: whitesmoke;
+    -webkit-text-stroke-width: 0.8px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+
+td{
+    font-family: Staatliches;
+    font-size: 25px;
+    color: whitesmoke;
+    -webkit-text-stroke-width: 0.8px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+
+.todayCases {
+    font-family: Staatliches;
+    font-size: 25px;
+    color: rgb(255, 251, 28);
+    -webkit-text-stroke-width: 0.8px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+
+.todayRecovered {
+    font-family: Staatliches;
+    font-size: 25px;
+    color: rgb(0, 250, 12);
+    -webkit-text-stroke-width: 0.8px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+
+.todayDeaths{
+    font-family: Staatliches;
+    font-size: 25px;
+    color: rgb(255, 0, 0);
+    -webkit-text-stroke-width: 0.8px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+}
