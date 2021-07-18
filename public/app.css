@@ -324,6 +324,11 @@ section button{
     border: 1px solid yellow;
 }
 
+.section a{
+    color: yellow;
+    text-decoration: none;
+}
+
 .s2Button:hover{
     background: yellow;
     color: #770177;
@@ -378,4 +383,145 @@ section button{
 .s5Button a:hover{
     text-decoration: none;
     color: #00113b;
+}
+
+.land {
+    top: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.box{
+    background: #242424;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.box a{
+    text-decoration: none;
+    position: relative;
+    top: 10px;
+    padding: 0 40px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 18px;
+    color: whitesmoke;
+}
+
+.box a:hover{
+    color: yellow;
+    transition: 0.3s;
+
+}
+
+
+.video-background{
+    width: 80%;
+    position: absolute;
+    top: 15%;
+    right: 10%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 2px -2px 2px 2px #969696;
+}
+
+
+.CHC{
+    width: 80%;
+    position: absolute;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+    font-size: 130px;
+    text-align: center;
+    top: 18%;
+    right: 10%;
+    color: whitesmoke;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #000000;
+}
+
+
+.CHCbrief{
+    position: absolute;
+    top: 56%;
+    width: 80%;
+    text-align: center;
+    right: 10%;
+    border: 3px solid #2d3436;
+    border-radius: 20px;
+    padding: 10px;
+    background: linear-gradient(#333333, #151616);
+}
+
+.brief1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: chartreuse;
+}
+
+.brief2{
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    font-family: 'Barlow', sans-serif;
+}
+
+.CHCbrief button a {
+    text-decoration: none;
+    color: #f7bebe;
+}
+
+.CHCbrief button a:hover {
+    text-decoration: none;
+    color: #a71b02e0;
+}
+
+
+.CHCbrief button{
+    padding: 10px 60px;
+    background: black ;
+    border: 3px solid chartreuse;
+    border-radius: 10px;
+    color: chartreuse;
+    font-family: 'Merriweather Sans', sans-serif;
+    margin: 20px 0 15px 0;
+}
+
+.CHCbrief button:hover{
+    background: chartreuse;
+    color: black;
+    border: 3px solid chartreuse;
+    transition: 0.3s;
+}
+
+a.brand{
+    position: relative;
+    left: 0;
+    font-size: 35px;
+    top: 0;
+    color: chartreuse;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #000000;
+}
+
+a.brand:hover{
+    color: chartreuse !important;
+}
+
+nav{
+    margin-right: 25px;
+    margin-top: 5px;
+}
+
+.favImg{
+    position: relative;
+    top: 0px;
 }
